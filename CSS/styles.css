@@ -25,20 +25,15 @@ h3{
 .top-container{
   background-color: #E4F9F5;
   /*position: relative;*/
-  padding-top: 100px;
   height:650px;
 }
 
 .middle-container{
-  height: 200px;
-  width : 200px;
-  background-color: red;
+
 }
 
 .bottom-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+
 }
 
 .bottom-cloud{
@@ -52,4 +47,9 @@ h3{
   position: absolute;
   right : 300px;
   top : 50px;
+}
+
+p{
+  font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-weight: 300;
 }
