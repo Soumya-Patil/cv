@@ -1,55 +1,82 @@
-
-
-body{
-  margin: 0 ;
+body {
+  margin: 0;
   text-align: center;
-  font-family:'Merriweather',serif;
-
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+  line-height: 2;
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  /*100% = 16px , hence ,if we want 90px , 16 *  90 = 562.5*/
+  /* 16px = 1em */
   font-family: 'Sacramento', cursive;
-  font-size: 20;
-
+  color: #66BFBF
 }
 
 h2 {
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
 
-h3{
-  font-family:'Montserrat', sans-serif;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
-.top-container{
+.top-container {
   background-color: #E4F9F5;
   /*position: relative;*/
-  height:650px;
+  padding: 100px;
 }
 
-.middle-container{
+.middle-container {}
 
-}
+.bottom-container {}
 
-.bottom-container{
-
-}
-
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   /*left-margin : 300px;
   bottom-margin : 300px;*/
-
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
-  right : 300px;
-  top : 50px;
+  right: 300px;
+  top: 50px;
 }
+
+
+
+a {
+  color: #11999E;
+}
+
+.skill-row {
+  width : 50%;
+  margin :100px auto 100px auto;
+  text-align: left;
+}
+
+.girl-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer-image {
+  width: 25% ;
+  float: left;
+  margin-right : 30px;
+}
+
+
+
 
 p{
-  font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-  font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
 }
